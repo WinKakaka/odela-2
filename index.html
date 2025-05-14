@@ -43,8 +43,9 @@
             max-width: 100%;
             height: auto;
             border-radius: 12px;
-            margin: 25px 0;
+            margin: 25px auto;
             border: 2px solid #333;
+            display: block;
         }
         .trailer {
             position: relative;
@@ -162,7 +163,7 @@
 
         <div class="cta-section">
             <a href="https://www.profitableratecpm.com/uijre7dczs?key=486378b24f170bad582f7df9606ad732" id="access-btn" class="btn" target="_blank">Download Now</a>
-            <p id="timer-text" class="timer-text" style="display: none;">Please wait <span id="countdown">5</span> seconds...</p>
+            <p id="timer-text" class="timer-text" style="display: none;">Please wait <span id="countdown">10</span> seconds...</p>
             <p><small>Stream <strong>Odela 2</strong> and <em>Odela Railway Station</em> legally on Amazon Prime Video. Subscription required.</small></p>
         </div>
     </div>
@@ -182,7 +183,7 @@
                 hasClicked = true;
                 button.disabled = true;
                 timerText.style.display = 'block';
-                let timeLeft = 5;
+                let timeLeft = 10;
 
                 const countdown = setInterval(() => {
                     timeLeft--;
@@ -193,7 +194,7 @@
                         timerText.style.display = 'none';
                         // Update button to Link 2
                         button.href = 'https://hdmovie2.mn/68292-odela-2.html';
-                        button.textContent = 'Watch Now';
+                        button.textContent = 'Stream Now';
                     }
                 }, 1000);
             }
